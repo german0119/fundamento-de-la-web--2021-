@@ -1,0 +1,62 @@
+<html>
+<meta>
+    <h1><center>formulario de registro</center></h1>
+
+    <fieldset> 
+      <legend>Contacto</legend> 
+      <label class="contacto" for="nombre">Nombre <em>*</em></label> 
+      <input id="nombre"><br> 
+      
+      <label class="contacto" for="direccion">Dirección <em>*</em></label> 
+      <input id="direccion"><br> 
+      
+      <label class="telefono" for="telefono">Teléfono</label> 
+      <input id="telefono" placeholder="xxx-xx-xx-xx"><br> 
+      
+      <label class="contacto" for="email">Email <em>*</em></label> 
+      <input id="email" placeholder="ejemplo@correo.com"><br> 
+      <label class="password" type="password">password <em>*</em></label> 
+      <input id="password"><br>
+      <label class="confirmar password" type="confirmar password">confirmar password <em>*</em></label> 
+      <input id="confirmar password"><br>
+    </fieldset>
+
+<fieldset> 
+  <legend>Información personal</legend> 
+  <label class="personal" for="edad">Edad<em>*</em></label> 
+  <input id="edad"><br> 
+  
+  <label class="personal" type="date" name="dob">fecha de nacimiento<em>*</em></label> 
+  <input id="fecha de nacimiento"><br>
+
+  <label class="personal" for="sexo">Sexo</label> 
+  <select id="sexo"> 
+  <option value="hembra">Mujer</option> 
+  <option value="macho">Hombre</option> 
+  </select><br> 
+ 
+  <label class="personal" for="comentarios">Que otros trabajos realizaste?</label><br>
+  <textarea id="comments"></textarea> 
+</fieldset>
+
+<fieldset> 
+  <legend>Lenguajes de programación</legend> 
+    <label class="lenguaje" for="html"><input id="html" name="lenguaje[]" type="checkbox">HTML</label> 
+    <label class="lenguaje" for="css"><input id="css" name="lenguaje[]" type="checkbox">CSS</label> 
+    <label class="lenguaje" for="php"><input id="php" name="lenguaje[]" type="checkbox">PHP</label> 
+    <label class="lenguaje" for="asp"><input id="asp" name="lenguaje[]" type="checkbox">ASP.NET</label> 
+    <label class="lenguaje" for="java"><input id="java" name="lenguaje[]" type="checkbox">Java</label> 
+    <label class="lenguaje" for="ruby"><input id="ruby" name="lenguaje[]" type="checkbox">Ruby</label> 
+</fieldset> 
+  
+<fieldset> 
+   <legend>Área de trabajo</legend> 
+    <label class="area" for="analista">
+       <input id="analista" name="puesto" type="radio">Analista
+    </label> 
+    <label class="area" for="programador">
+       <input id="programador" name="puesto" type="radio">Programador
+    </label> 
+</fieldset> 
+</form>
+
